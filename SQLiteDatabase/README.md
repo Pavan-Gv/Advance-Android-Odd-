@@ -29,8 +29,8 @@ Step 7: Save and run the application.
 ~~~
 /*
 Program to print the DatabaseTable using the SQLite”.
-Developed by: K Sai Eswar
-Registeration Number : 212221240020
+Developed by: Bagu Dhivya Shri
+Registeration Number : 212221230009
 */
 ~~~
 ### MainActivity.java:
@@ -242,7 +242,7 @@ public class DataBaseManager {
 <img width="960" alt="o2" src="https://user-images.githubusercontent.com/94827772/236914571-c6e66bbe-3ada-4ac9-bd7e-29b995d51dd8.png">
 <img width="960" alt="o3" src="https://user-images.githubusercontent.com/94827772/236914576-d2f62e95-a1f7-4fc5-a51b-1ab76f2585e7.png">
 <img width="960" alt="04" src="https://user-images.githubusercontent.com/94827772/236914620-a528b369-5cb4-40a2-8547-7f42a3a32d92.png">
-<img width="200" alt="Esh" src="https://user-images.githubusercontent.com/94827772/236916709-8e4e2e48-73f5-4644-a624-81188634fcc9.png">
+<img width="203" alt="Dhiv" src="https://user-images.githubusercontent.com/94827772/236916917-312541f4-e5ec-467e-9ca7-0d2d10907c74.png">
 
 
 
