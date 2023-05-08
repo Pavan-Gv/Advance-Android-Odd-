@@ -34,7 +34,7 @@ Registeration Number : 212221240020
 */
 ~~~
 ### MainActivity.java:
-~~~~~
+~~~
 package com.example.dbms;
 import androidx.appcompat.app.AppCompatActivity;
 
