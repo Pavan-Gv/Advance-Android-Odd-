@@ -1,4 +1,3 @@
-
 # Ex.No:1 To create a database table and to display the database table field using SQLite Database in Android Studio.
 
 
@@ -27,15 +26,15 @@ Step 6: Display message give in MainActivity file.
 Step 7: Save and run the application.
 
 ## PROGRAM:
-```
+
 /*
 Program to print the DatabaseTable using the SQLite”.
-Developed by: G Venkata Pavan Kumar
-Registeration Number : 212221240013
+Developed by: B Mahalakshmi
+Registeration Number : 212221240008
 */
-```
+
 ### MainActivity.java:
-~~~
+~
 package com.example.dbms;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -82,10 +81,10 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 
-~~~
+~
 
 ### DataBaseHelper.java:
-~~~
+~
 package com.example.dbms;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
@@ -116,10 +115,10 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         db.execSQL("DROP TABLE IF EXISTS "+ DATABASE_TABLE);
     }
 }
-~~~
+~
 
 ### DataBaseManager.java:
-~~~
+~
 package com.example.dbms;
 import android.content.ContentValues;
 import android.content.Context;
@@ -160,10 +159,10 @@ public class DataBaseManager {
         return ret;
     }
 }
-~~~
+~
 
 ### activity_main.xml:
-~~~
+~
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -236,14 +235,15 @@ public class DataBaseManager {
         android:text="Delete"
         android:layout_below="@id/button3" />
 </RelativeLayout>
-~~~
+~
 
 ## OUTPUT:
 <img width="960" alt="o1" src="https://user-images.githubusercontent.com/94827772/236914560-312ba8c2-6762-436c-b97f-9893bae03b5f.png">
 <img width="960" alt="o2" src="https://user-images.githubusercontent.com/94827772/236914571-c6e66bbe-3ada-4ac9-bd7e-29b995d51dd8.png">
 <img width="960" alt="o3" src="https://user-images.githubusercontent.com/94827772/236914576-d2f62e95-a1f7-4fc5-a51b-1ab76f2585e7.png">
 <img width="960" alt="04" src="https://user-images.githubusercontent.com/94827772/236914620-a528b369-5cb4-40a2-8547-7f42a3a32d92.png">
-<img width="197" alt="Pavan" src="https://user-images.githubusercontent.com/94827772/236917145-094c5484-bef3-4e7a-a558-aa3e750c0287.png">
+<img width="200" alt="Maha" src="https://user-images.githubusercontent.com/94827772/236915926-63f203bc-7ca8-476b-9e78-063c3e77d370.png">
+
 
 
 
