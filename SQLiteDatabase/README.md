@@ -34,7 +34,7 @@ Registeration Number : 212221240008
 */
 
 ### MainActivity.java:
-~
+~~~
 package com.example.dbms;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -81,10 +81,10 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 
-~
+~~~
 
 ### DataBaseHelper.java:
-~
+~~~
 package com.example.dbms;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
@@ -115,10 +115,10 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         db.execSQL("DROP TABLE IF EXISTS "+ DATABASE_TABLE);
     }
 }
-~
+~~~
 
 ### DataBaseManager.java:
-~
+~~~
 package com.example.dbms;
 import android.content.ContentValues;
 import android.content.Context;
@@ -159,10 +159,10 @@ public class DataBaseManager {
         return ret;
     }
 }
-~
+~~~
 
 ### activity_main.xml:
-~
+~~~
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -235,7 +235,7 @@ public class DataBaseManager {
         android:text="Delete"
         android:layout_below="@id/button3" />
 </RelativeLayout>
-~
+~~~
 
 ## OUTPUT:
 <img width="960" alt="o1" src="https://user-images.githubusercontent.com/94827772/236914560-312ba8c2-6762-436c-b97f-9893bae03b5f.png">
