@@ -183,6 +183,8 @@ interface MultiplyInterface {
 
 
 ## OUTPUT
+![image](https://github.com/Pavan-Gv/Advance-Android-Odd-/assets/94827772/60845013-210d-462f-95ae-7bd74fa7428c)
+![image](https://github.com/Pavan-Gv/Advance-Android-Odd-/assets/94827772/61434a86-e6f7-4488-944d-2489fef0e5c5)
 
 
 
